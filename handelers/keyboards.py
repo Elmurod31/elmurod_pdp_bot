@@ -26,7 +26,7 @@ adds_btns = ReplyKeyboardMarkup(
         KeyboardButton(text="Scratch")
     ],
     [
-        KeyboardButton(text="Back"),
+        KeyboardButton(text="Orqaga"),
     ]
 ], resize_keyboard=True)
 
@@ -40,3 +40,49 @@ adds_btnss = ReplyKeyboardMarkup(
         KeyboardButton(text="Orqaga"),
     ],
 ], resize_keyboard=True)
+
+
+
+
+add_btns1 = ReplyKeyboardMarkup(
+    keyboard=[
+    [
+        KeyboardButton(text="About the company"),      # Kompaniya haqida
+        KeyboardButton(text="Our mentors"),            # Bizning mentorlar
+    ],
+    [
+        KeyboardButton(text="Our courses"),            # Kurslarimiz
+    ],
+    [
+        KeyboardButton(text="Contacts/Address"),       # Kontaktlar/Manzil
+        KeyboardButton(text="Language"),               # Til
+    ]
+], resize_keyboard=True)
+
+adds_btns2 = ReplyKeyboardMarkup(
+    keyboard=[
+    [
+        KeyboardButton(text="python"),
+        KeyboardButton(text="frontend"),               # Fronted -> Frontend (to'g'rilandi)
+    ],
+    [
+        KeyboardButton(text="robotics"),               # Robototexnika
+        KeyboardButton(text="scratch")
+    ],
+    [
+        KeyboardButton(text="back"),                   # Back (qolgancha)
+    ]
+], resize_keyboard=True)
+
+adds_btnss3 = ReplyKeyboardMarkup(
+    keyboard=[
+    [
+        KeyboardButton(text="Uzbek language"),         # Uzbek tili
+        KeyboardButton(text="English"),                # English (qolgancha)
+    ],
+    [
+        KeyboardButton(text="Back"),                   # Orqaga -> Back
+    ],
+], resize_keyboard=True)
+
+
