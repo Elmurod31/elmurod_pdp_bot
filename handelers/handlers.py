@@ -175,7 +175,7 @@ async def command_start_handler(message: Message):
     await message.answer_photo(img, caption="Frontend - The first steps in web development! 😊")
 
 
-@handlers_router.message(F.text == "robotics")  # Robototexnika
+@handlers_router.message(F.text == "robotics")  # Robototexnikma
 async def command_start_handler(message: Message):
     img_path_1 = os.path.join(os.path.dirname(__file__), "images", "img_10.png")
     img = FSInputFile(img_path_1)
@@ -195,4 +195,3 @@ async def command_start_handler(message: Message):
 @handlers_router.message(F.text == "back")  # Orqaga
 async def command_start_handler(message: Message):
     await message.answer(text="Our courses", reply_markup=add_btns1)
-
